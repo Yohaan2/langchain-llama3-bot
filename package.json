@@ -12,7 +12,8 @@
     "@langchain/core": "^0.3.27",
     "chromadb": "^1.10.0",
     "dotenv": "^16.4.7",
-    "langchain": "^0.3.9"
+    "langchain": "^0.3.9",
+    "pdf-parse": "^1.1.1"
   },
   "devDependencies": {
     "ts-node-dev": "^2.0.0",

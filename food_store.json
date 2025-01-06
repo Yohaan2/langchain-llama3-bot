@@ -1,0 +1,79 @@
+{
+  "store": {
+    "name": "Tienda Sabores Deliciosos",
+    "description": "Somos una tienda especializada en productos frescos, comidas preparadas y snacks. Ofrecemos una experiencia única de compra para satisfacer todos los gustos.",
+    "address": "Calle Principal 123, Ciudad Gourmet, País Sabor",
+    "contact": {
+      "phone": "+123 456 7890",
+      "email": "contacto@saboresdeliciosos.com",
+      "website": "https://saboresdeliciosos.com"
+    },
+    "hours": {
+      "monday_to_friday": "9:00 AM - 9:00 PM",
+      "saturday": "10:00 AM - 8:00 PM",
+      "sunday": "Cerrado"
+    },
+    "payment_methods": [
+      "Efectivo",
+      "Tarjeta de crédito/débito",
+      "Transferencias bancarias",
+      "Pagos móviles (Apple Pay, Google Pay)"
+    ]
+  },
+  "products": [
+    {
+      "name": "Pan Artesanal",
+      "category": "Panadería",
+      "price": 2.5,
+      "description": "Pan fresco horneado diariamente con ingredientes de la más alta calidad.",
+      "stock": 50
+    },
+    {
+      "name": "Café Orgánico",
+      "category": "Bebidas",
+      "price": 8.99,
+      "description": "Café 100% orgánico, disponible en presentaciones de grano entero o molido.",
+      "stock": 30
+    },
+    {
+      "name": "Ensalada César",
+      "category": "Comidas preparadas",
+      "price": 7.5,
+      "description": "Ensalada fresca con aderezo César, crutones y pollo a la parrilla.",
+      "stock": 20
+    },
+    {
+      "name": "Brownies de Chocolate",
+      "category": "Snacks y Postres",
+      "price": 3.0,
+      "description": "Deliciosos brownies caseros con un sabor intenso a chocolate.",
+      "stock": 40
+    }
+  ],
+  "promotions": [
+    {
+      "name": "2x1 en Pan Artesanal",
+      "valid_until": "2025-01-31",
+      "details": "Llévate dos panes artesanales por el precio de uno."
+    },
+    {
+      "name": "10% de descuento en Café Orgánico",
+      "valid_until": "2025-01-15",
+      "details": "Descuento disponible en compras superiores a 2 paquetes."
+    }
+  ],
+  "frequent_questions": [
+    {
+      "question": "¿Hacen envíos a domicilio?",
+      "answer": "Sí, realizamos envíos dentro de la ciudad con un costo adicional de $3."
+    },
+    {
+      "question": "¿Los productos son frescos?",
+      "answer": "Sí, garantizamos frescura en todos nuestros productos."
+    },
+    {
+      "question": "¿Tienen opciones vegetarianas?",
+      "answer": "Sí, ofrecemos una variedad de comidas y snacks vegetarianos."
+    }
+  ]
+}
