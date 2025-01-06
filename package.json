@@ -1,0 +1,21 @@
+{
+  "name": "chatbot-langchaing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yohaan2 <garciayohan57@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only app.ts"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.22",
+    "@langchain/core": "^0.3.27",
+    "chromadb": "^1.10.0",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.9"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  }
+}
