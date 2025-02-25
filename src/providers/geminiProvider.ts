@@ -8,17 +8,21 @@ import { TaskType } from "@google/generative-ai";
 
 
 export const geminiProvider = () => {
-  const embeddings = new GoogleGenerativeAIEmbeddings({
-    model: "text-embedding-004", // 768 dimensions
-    taskType: TaskType.RETRIEVAL_DOCUMENT,
-    title: "Document title",
-    apiKey: GEMINI_API_KEY
-  });
   const llm = new ChatGoogleGenerativeAI({
     model: "gemini-2.0-flash",
     maxOutputTokens: 2048,
     apiKey: GEMINI_API_KEY,
   });
   
-  return { llm, embeddings }
+  return { llm }
+}
+
+export const getEmbeddings = () => {
+  const embeddings = new GoogleGenerativeAIEmbeddings({
+    model: "text-embedding-004", // 768 dimensions
+    taskType: TaskType.RETRIEVAL_DOCUMENT,
+    title: "Document title",
+    apiKey: GEMINI_API_KEY
+  });
+  return { embeddings }
 }
